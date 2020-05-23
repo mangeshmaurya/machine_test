@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "The user signup with wrong email address",
+        "description": "",
+        "id": "signup;the-user-signup-with-wrong-email-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11165264700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the browser and browse Amazon website",
+            "match": {
+              "location": "LoginPageSteps.user_opens_the_browser_and_browse_Amazon_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1066107900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on SignIn button",
+            "match": {
+              "location": "LoginPageSteps.user_click_on_SignIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1691865000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on create your account button",
+            "match": {
+              "location": "LoginPageSteps.user_click_on_create_your_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3372871600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User try to signup by filling name, mobile number,email and password",
+            "match": {
+              "location": "LoginPageSteps.user_try_to_signup_by_filling_name_mobile_number_email_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 187146300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify the error message",
+            "match": {
+              "location": "LoginPageSteps.user_verify_the_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4358193500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginPageSteps.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "SignUp",
+    "description": "",
+    "id": "signup",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\com\\test\\feature\\AmazonTest.feature",
+    "tags": []
+  }
+]
